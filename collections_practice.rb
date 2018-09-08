@@ -37,4 +37,5 @@ end
 
 #question 7 - find strings start with "a"
 def find_a(array)
+  array.find {|word| word[0] = a }
 end
