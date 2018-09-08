@@ -37,5 +37,5 @@ end
 
 #question 7 - find strings start with "a"
 def find_a(array)
-  array.select {|word| word[0] = "a" }
+  array.select {|word| word.start_with?("a")}
 end
