@@ -48,7 +48,6 @@ end
 #question 9 - add "s" to all words except 2nd word
 def add_s(array)
   array.each_with_index.collect do |word, index|
-    next if index == 1
-    word << "s"
+    word << "s" except "feet"
   end
 end
