@@ -26,9 +26,5 @@ end
 
 #question 6 - kesha -> ke$ha
 def kesha_maker(array)
-  kesha = []
-  array.each do |word|
-    kesha << word.insert 3 "$"
-  end
-  kesha
+  array.map { |word| word[3] = "$" }
 end
