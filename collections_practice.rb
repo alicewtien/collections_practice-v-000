@@ -12,4 +12,3 @@ end
 def sort_array_char_count(array)
   array.sort { |a.length, b.length| a <=> b }
 end
-
