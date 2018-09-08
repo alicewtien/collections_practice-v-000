@@ -24,7 +24,7 @@ def reverse_array(array)
   array.reverse!
 end
 
-#question 6 - kesha -> ke$ha
+#question 6 - kesha -> ke$ha using .each
 def kesha_maker(array)
   $_array = []
   array.each do |word|
