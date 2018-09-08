@@ -27,7 +27,7 @@ end
 #question 6 - kesha -> ke$ha
 def kesha_maker(array)
   kesha = []
-  array.each do |word| 
+  array.each do |word|
     kesha << word[2] = $
   end
   kesha
