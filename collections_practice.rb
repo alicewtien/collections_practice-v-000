@@ -45,7 +45,7 @@ def sum_array(array)
   array.inject {|sum, n| sum + n }
 end
 
-#question 9 - add "s" to all words except 2nd word
+#question 9 - add "s" to all words except 2nd word (index 1)
 def add_s(array)
   i_1 = array.delete_at(1)
   array.each_with_index.collect do |word, index|
