@@ -42,5 +42,5 @@ end
 
 #question 8 - sum of an array
 def sum_array(array)
-  array.inject
+  array.inject {|sum, n| sum + n }
 end
