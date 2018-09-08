@@ -23,3 +23,10 @@ end
 def reverse_array(array)
   array.reverse!
 end
+
+#question 6 - kesha -> ke$ha
+def kesha_maker(array)
+  kesha = []
+  array.each { |word| kesha << word[2] = $ }
+  kesha
+end
