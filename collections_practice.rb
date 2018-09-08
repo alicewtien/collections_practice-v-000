@@ -25,6 +25,7 @@ def reverse_array(array)
 end
 
 #question 6 - kesha -> ke$ha using .each
+#(.map is much faster ==> array.map {|word| word[2]=$} )
 def kesha_maker(array)
   $_array = []
   array.each do |word|
