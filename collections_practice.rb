@@ -12,3 +12,5 @@ end
 def sort_array_char_count(array)
   array.sort { |a, b| a.length <=> b.length }
 end
+
+#question 4 - swaps the 2nd and 3rd elements
