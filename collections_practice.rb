@@ -10,5 +10,5 @@ end
 
 #question 3 - ascending order by length
 def sort_array_char_count(array)
-  array.sort { |a.length, b.length| a <=> b }
+  array.sort { |a, b| a.length <=> b.length }
 end
