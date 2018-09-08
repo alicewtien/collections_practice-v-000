@@ -47,8 +47,9 @@ end
 
 #question 9 - add "s" to all words except 2nd word
 def add_s(array)
-  array.delete(1)
+  i_1 = array.delete_at(1)
   array.each_with_index.collect do |word, index|
     word << "s"
   end
+  array.insert(1, i_1)
 end
