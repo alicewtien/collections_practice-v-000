@@ -34,3 +34,7 @@ def kesha_maker(array)
   end
   $_array
 end
+
+#question 7 - find strings start with "a"
+def find_a(array)
+end
