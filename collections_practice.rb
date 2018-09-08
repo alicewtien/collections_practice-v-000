@@ -26,6 +26,7 @@ end
 
 #question 6 - kesha -> ke$ha
 def kesha_maker(array)
-  array.map { |word| word[2] = "$" }
+  $_array = []
+  array.each { |word| word[2] = "$" }
   array
 end
